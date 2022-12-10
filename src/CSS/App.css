@@ -1,0 +1,14 @@
+#App{
+  background-color: #090808;
+  color: #ced8da;
+}
+
+#Hero{
+
+  width: 100%;
+  background-color: #090808;
+  color: #ced8da;
+  display:flex;
+  flex-direction: column;
+}
+

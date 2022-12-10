@@ -1,0 +1,47 @@
+@media only screen and (max-width: 750px) {
+    #Header{
+      height: auto;
+      width: 100% !important;
+      float: unset !important;
+      font-size: 10px !important;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+  
+  #Header{
+    padding-top:10px;       
+    height: auto;
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #ced8da;
+    
+  
+  }
+  .Link-nav{
+    color: #ced8da;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .Link-nav::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: relative;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  .Link-nav:hover::after {
+    width: 100%; 
+    left: 0; 
+  }
