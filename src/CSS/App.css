@@ -1,14 +1,12 @@
-#App{
-  background-color: #090808;
-  color: #ced8da;
+.App{
+  background-color: #1E1E1E;
+  color: #F5F1E5;
+  font-family: 'Open Sans', sans-serif;
 }
+
 
 #Hero{
 
-  width: 100%;
-  background-color: #090808;
-  color: #ced8da;
-  display:flex;
-  flex-direction: column;
+
 }
 

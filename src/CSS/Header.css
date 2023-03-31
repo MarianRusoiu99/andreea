@@ -1,26 +1,23 @@
-@media only screen and (max-width: 750px) {
-    #Header{
-      height: auto;
-      width: 100% !important;
-      float: unset !important;
-      font-size: 10px !important;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
+
+  .icon-link{
+    text-decoration: none;
+    color: #ced8da;
+    margin-right: 30px;
   }
-  
-  #Header{
-    padding-top:10px;       
+  #Header{  
+    width: 100%;
+    position:fixed;     
     height: auto;
-    width: 50%;
-    float: right;
+    padding: 0 0px 0px 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: #ced8da;
-    
-  
+    align-items: center;
+    border-bottom: 1px solid  ;
+    z-index: 100;
+    background-color: #1E1E1E;
+    /* position: relative; */
   }
   .Link-nav{
     color: #ced8da;
@@ -45,3 +42,33 @@
     width: 100%; 
     left: 0; 
   }
+.footer{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p{
+  font-size: medium;
+
+}
+
+
+.outside{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  position:absolute;
+  right: 20px;
+  top: 70px;
+  padding: 10px;
+  margin:0;
+
+}
+.text-link{
+  text-decoration: none;
+  color: #ced8da;
+  font-size: 20px;
+  /* padding: 5px; */
+
+}
