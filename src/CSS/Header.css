@@ -47,6 +47,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid ;
 }
 .footer p{
   font-size: medium;
@@ -63,12 +64,14 @@
   top: 70px;
   padding: 10px;
   margin:0;
-
+  mix-blend-mode: difference;
 }
 .text-link{
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #ced8da;
+  /* color: unset; */
   font-size: 20px;
+  /* background-color: #fff; */
   /* padding: 5px; */
 
 }

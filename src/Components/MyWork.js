@@ -5,7 +5,7 @@ function MyWork() {
   return (
 
     <div className='cont'>
-    <div className="hbar bgLight t">ceva</div>   
+    <div className="hbar bgLight" >MY WORK</div>   
     <div id="wcont">
 
             <div className = "workitem">

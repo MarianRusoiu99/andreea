@@ -7,6 +7,7 @@ function Footer() {
     <div className='footer'>
       <IconContext.Provider value={{ size: "2em" }}>
       <p>@2023 Andreea Cojocaru</p>
+      <a href='https://juziey.com/'><p>Inspiration for the website JUZIEY</p></a>
       <div>
       <AiFillLinkedin/>
       <HiEnvelope/>
