@@ -4,7 +4,6 @@ import './CSS/App.css';
 import './CSS/Header.css';
 
 import './CSS/Hero.css';
-
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Gallery from './Components/Gallery';
@@ -19,11 +18,11 @@ import DeignGrafic from './Components/DeignGrafic';
 import DesignInterior from './Components/DesignInterior';
 import Altele from './Components/Altele';
 
-import {BrowserRouter , Routes , Route} from 'react-router-dom'
+import {BrowserRouter , Routes , Route, useLocation } from 'react-router-dom'
 
 function App() {
 
-
+  
 
   return (
     <div className="App">
@@ -44,6 +43,7 @@ function App() {
       </Routes>
       <Footer/>
       </BrowserRouter>
+     
     </div>
   );
 }

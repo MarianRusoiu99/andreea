@@ -1,7 +1,7 @@
 import React from 'react'
 import placeholder from "../Assets/a.webp"
 import {Link} from "react-router-dom"
-function MyWork() {
+function MyWork2() {
   return (
 
     <div className='cont'>
@@ -36,4 +36,4 @@ function MyWork() {
   )
 }
 
-export default MyWork
+export default MyWork2

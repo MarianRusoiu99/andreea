@@ -1,8 +1,16 @@
 
   .icon-link{
     text-decoration: none;
-    color: #ced8da;
+    
     margin-right: 30px;
+  }
+  .light{
+    color: #1E1E1E;
+    background-color: #F5F1E5;
+  }
+  .dark{
+    color:#F5F1E5 ;
+    background-color: #1E1E1E;
   }
   #Header{  
     width: 100%;
@@ -12,36 +20,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #ced8da;
+
     align-items: center;
     border-bottom: 1px solid  ;
     z-index: 100;
-    background-color: #1E1E1E;
+  
     /* position: relative; */
   }
-  .Link-nav{
-    color: #ced8da;
-    text-decoration: none;
-    font-size: 2em;
-    font-family: 'Cormorant Garamond', serif;
-  }
-  .Link-nav::after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 1px;
-    left: 50%;
-    position: relative;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
-  
-  .Link-nav:hover::after {
-    width: 100%; 
-    left: 0; 
-  }
+
 .footer{
   padding: 10px;
   display: flex;
