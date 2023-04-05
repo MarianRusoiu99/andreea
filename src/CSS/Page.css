@@ -1,0 +1,36 @@
+.Container{
+    margin: 0;
+    background-color: #F5F1E5;
+    color: #1E1E1E;
+  }
+  .Title{
+    flex-direction:column;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .numeProiect{
+    margin:0;
+    font-size: 40px;
+}
+.subtitle{
+    margin:0;
+    font-size: 25px;
+}
+.bigImageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.storyContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.itemContent{
+width: 100%;
+}

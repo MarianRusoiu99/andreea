@@ -5,7 +5,7 @@ import { IconContext } from "react-icons";
 function Header() {
   const pathList=["/Altele", "/DesignDeProdus","/MyWork/Altele"];
   const location = useLocation();
-  console.log(location);
+  // console.log(location);
   return (
   
   

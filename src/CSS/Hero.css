@@ -153,19 +153,3 @@
 
 }
 
-.Container{
-  margin: 0;
-  background-color: #F5F1E5;
-  color: #1E1E1E;
-}
-.Title{
-  position:relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100%;
-}
-.numeProiect{
-  margin:0;
-}

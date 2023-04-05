@@ -1,5 +1,4 @@
 import React from 'react'
-import andreea from "./../Assets/and.png"
 import MyWork from './MyWork'
 import Overlay from './Overlay'
 import GetInTouch from './GetInTouch'
@@ -9,7 +8,7 @@ function Hero() {
     <section id="Hero">
         <Overlay/>
        <MyWork/>
-       <MyWork2/>
+       {/* <MyWork2/> */}
         <GetInTouch/>
     </section>
   )
