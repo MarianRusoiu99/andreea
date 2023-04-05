@@ -13,9 +13,9 @@ context.keys().forEach((key) => {
   all[namespace] = JSON.parse(JSON.stringify(resource));
  
 });
-Object.keys(all).forEach(key => {
-   // console.log(key, all[key]);
- });
+// Object.keys(all).forEach(key => {
+//    // console.log(key, all[key]);
+//  });
 
 
   return (

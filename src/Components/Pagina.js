@@ -1,11 +1,11 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
-
+import Slider from './Slider'
 function Pagina() {
   const location = useLocation()
   const { from } = location.state
-
-  console.log(from)
+  
+  console.log(from.Slider)
   return (
    
     <div className="Container">
@@ -21,12 +21,14 @@ function Pagina() {
         
         {
       Object.keys(from.Content).map(key => {
-   console.log(key, from.Content[key]);
+  //  console.log(key, from.Content[key]);
                return(
                <div className="itemContent">
-                  <h3>{from.Content[key].name}</h3>
-                  <p>{from.Content[key].text}</p>
-                  <img src={`${from.Content[key].picture}`}></img>
+                  <div className='text1'>
+                  <h3 className='h'>{from.Content[key].name}</h3>
+                  <p className='con'>{from.Content[key].text}</p>
+                  </div>
+                  <img className='imagePage' alt='sc' src={`${from.Content[key].picture}`}></img>
                </div>
                
                 )
@@ -35,6 +37,8 @@ function Pagina() {
             }
 
       </div>
+            <Slider images = {from.Slider}/>
+      
     </div>
   )
 }
