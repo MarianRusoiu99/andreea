@@ -4,7 +4,9 @@ import Slider from './Slider'
 function Pagina() {
   const location = useLocation()
   const { from } = location.state
-  
+  React.useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   console.log(from.Slider)
   return (
    

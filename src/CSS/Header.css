@@ -11,6 +11,7 @@
   .dark{
     color:#F5F1E5 ;
     background-color: #1E1E1E;
+    border-color: 0px !important;
   }
   #Header{  
     width: 100%;

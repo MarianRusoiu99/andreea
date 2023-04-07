@@ -10,8 +10,9 @@ function Slider(props) {
         alignItems: 'center',
         justifyContent: 'center',
         backgroundSize: 'cover',
-        height: '600px',
-
+        height: '50vw',
+        top: '50%' ,
+        left: '50%',
         width: "100%"
       }
 
