@@ -14,3 +14,28 @@ a:hover{
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(5vh);
+  visibility: hidden;
+  transition: opacity 0.3s ease-out, transform 0.4s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.fade-in-section2 {
+  opacity: 0;
+  transform: translateX(-5vh);
+  visibility: hidden;
+  transition: opacity 0.3s ease-out, transform 0.4s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section2.is-visible2 {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}

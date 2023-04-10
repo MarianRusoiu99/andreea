@@ -2,6 +2,7 @@ import React from 'react'
 import placeholder from "../Assets/a.webp"
 import {Link} from "react-router-dom"
 import Pagina from './Pagina'
+import FadeInSection from './FadeInSection';
 function MyWork() {
 
    const context = require.context('./Json', true, /.json$/);
@@ -21,7 +22,10 @@ context.keys().forEach((key) => {
   return (
 
     <div className='cont'>
-    <div className="hbar bgLight" ><h2 className='head'>MY WORK</h2></div>   
+   
+    <div className="hbar bgLight" >
+    <FadeInSection><h2 className='head'>MY WORK</h2></FadeInSection></div>   
+    
     <div id="wcont">
 
             {
