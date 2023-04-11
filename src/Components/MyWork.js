@@ -23,7 +23,7 @@ context.keys().forEach((key) => {
 
     <div className='cont'>
    
-    <div className="hbar bgLight" >
+    <div className="hbar colorDark bgColorLight" >
     <FadeInSection><h2 className='head'>MY WORK</h2></FadeInSection></div>   
     
     <div id="wcont">

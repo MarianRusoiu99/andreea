@@ -1,8 +1,6 @@
 .Container{
     margin: 0;
-    background-color: #F5F1E5;
-    color: #1E1E1E;
-  }
+    }
   .Title{
     flex-direction:column;
     position:relative;

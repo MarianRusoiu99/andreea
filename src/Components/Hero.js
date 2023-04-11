@@ -5,7 +5,7 @@ import GetInTouch from './GetInTouch'
 import MyWork2 from './MyWork2'
 function Hero() {
   return (
-    <section id="Hero">
+    <section id="Hero" className='colorLight bgColorDark'>
         <Overlay/>
        <MyWork/>
        {/* <MyWork2/> */}

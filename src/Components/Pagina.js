@@ -11,7 +11,7 @@ function Pagina() {
   console.log(from.Slider)
   return (
    
-    <div className="Container">
+    <div className="Container bgColorLight colorDark">
       
       <div className="Title">
         <h1 className='numeProiect'>{from.title}</h1>

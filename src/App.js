@@ -20,7 +20,7 @@ function App() {
   
 
   return (
-    <div className="App">
+    <div className="App colorLight bgColorDark">
       <BrowserRouter>
       <Header/>
       <Routes>
