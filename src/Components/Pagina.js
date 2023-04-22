@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import Slider from './Slider'
+import Geometrybg from './Geometrybg'
 import FadeInSection from './FadeInSection'
 function Pagina() {
   const location = useLocation()
@@ -14,6 +15,7 @@ function Pagina() {
     <div className="Container bgColorLight colorDark">
       
       <div className="Title">
+      <Geometrybg color="#1E1E1E"/>
         <h1 className='numeProiect'>{from.title}</h1>
         <h2 className='subtitle'>{from.subtitle}</h2>
       </div>

@@ -1,10 +1,11 @@
 import React from 'react'
-import placeholder from "../Assets/a.webp"
-import {Link} from "react-router-dom"
-import Pagina from './Pagina'
+
+import {Link,useLocation} from "react-router-dom"
+
 import FadeInSection from './FadeInSection';
 function MyWork() {
-
+   const location = useLocation();
+   console.log(location);
    const context = require.context('./Json', true, /.json$/);
 const all = {};
 context.keys().forEach((key) => {
@@ -23,7 +24,7 @@ context.keys().forEach((key) => {
 
     <div className='cont'>
    
-    <div className="hbar colorDark bgColorLight" >
+    <div className={` hbar colorDark bgColorLight  ${location.pathname === "/MyWork" ? "paddingtop" :  ""}`} >
     <FadeInSection><h2 className='head'>MY WORK</h2></FadeInSection></div>   
     
     <div id="wcont">
