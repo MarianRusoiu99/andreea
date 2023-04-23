@@ -11,7 +11,7 @@ function GetInTouch() {
     <FadeInSection>
         <div className="bg contGet">
             <h2 className='header t'>GET IN TOUCH</h2>
-            <p className='text maxw t'>I am Zoey, a designer specializing in graphic and digital design. I believe design is a bridge for storytelling. I've always enjoyed experimenting with new technology to convey stories.</p>
+            <p className='text maxw '>I am Zoey, a designer specializing in graphic and digital design. I believe design is a bridge for storytelling. I've always enjoyed experimenting with new technology to convey stories.</p>
               <FadeInSection2>
             <HiOutlineArrowRight className='text'/>
             </FadeInSection2>

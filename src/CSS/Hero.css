@@ -1,5 +1,4 @@
-#Hero {
-}
+
 .head{
   margin: 0;
   margin-left:50px;
@@ -36,8 +35,8 @@
   transition: 0.4s;
 }
 .workitem:hover{
-  background-color: #F5F1E5;
-  color: #1E1E1E;
+  background-color: #f2f2f2;
+  color: #0d0d0d;
   /* border-color: #1E1E1E; */
 }
 
@@ -66,8 +65,8 @@
   transition: 0.4s;
 }
 .hbar:hover{
-  background-color: #1E1E1E !important;
-  color: #F5F1E5 !important;
+  background-color: #0d0d0d !important;
+  color: #f2f2f2 !important;
 }
 
 .text {
@@ -127,5 +126,10 @@
    
     width: 100%;
   }
+  .text {
+
+  letter-spacing: 1.8px;
+  font-size: 1.2em;
+}
 }
 

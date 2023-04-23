@@ -36,8 +36,8 @@
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-  border-top: 1px solid #1E1E1E;
-  border-bottom: 1px solid #1E1E1E;
+  border-top: 1px solid #0d0d0d;
+  border-bottom: 1px solid #0d0d0d;
 }
 
 div.storyContent div:last-child div:last-child{
@@ -50,13 +50,11 @@ div.storyContent div:last-child div:last-child{
 .itemContent{
   display:flex;
   padding: 10px;
-  border-bottom: 1px solid #1E1E1E;
+  border-bottom: 1px solid #0d0d0d;
   /* justify-content: center; */
 }
 
-.h{
 
-}
 .con{
 width: 100%;
 max-width: 500px;
@@ -87,4 +85,10 @@ width: 50%;
   .text1{
     width: 100%;
     }
+    .numeProiect{
+    margin:0;
+    font-size: 30px;
+   
+    z-index: 100;
+}
 }

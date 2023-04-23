@@ -1,15 +1,15 @@
-import React, { useState, useEffect} from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import React from 'react'
+import { Canvas } from '@react-three/fiber'
 import {OrbitControls} from '@react-three/drei'
 import useScrollPosition from "./useScrollPosition";
 
 function Geometrybg(props) {
 
     const cont = React.useRef();
-    console.log(cont)
+    // console.log(cont)
     const scrollPosition = useScrollPosition();
 
-    console.log(props);
+    // console.log(props);
   
     
   return (

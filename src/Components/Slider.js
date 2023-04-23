@@ -1,10 +1,10 @@
 import React from 'react'
-import { Slide, Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
-
+import { Fade } from 'react-slideshow-image';
+import '../CSS/styleSlider.css'
+import { useLocation } from 'react-router-dom'
 function Slider(props) {
     
-      
+  const location = useLocation()
       const divStyle = {
         display: 'flex',
         alignItems: 'center',
@@ -22,7 +22,7 @@ function Slider(props) {
         <Fade>
          {props.images.map((slideImage, index)=> (
             <div key={index}>
-              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage})` }}>
+              <div style={{ ...divStyle, 'backgroundImage': `url(${location.pathname === "/MyWork/Pagina" ? "."+slideImage : slideImage}  )` }}>
                 {/* <span style={spanStyle}>{slideImage.caption}</span> */}
               </div>
             </div>

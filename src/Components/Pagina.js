@@ -5,6 +5,7 @@ import Geometrybg from './Geometrybg'
 import FadeInSection from './FadeInSection'
 function Pagina() {
   const location = useLocation()
+  console.log(location.pathname)
   const { from } = location.state
   React.useEffect(()=>{
     window.scrollTo(0,0)
@@ -21,7 +22,7 @@ function Pagina() {
       </div>
       <FadeInSection>  
       <div className="bigImageContainer">
-           <img src={`${from.bigPicture}`} alt='gi'/>
+           <img src={`${location.pathname === "/MyWork/Pagina" ? "."+from.bigPicture : from.bigPicture}`} alt='gi'/>
       </div>
 </FadeInSection>
       <div className='storyContent'>
@@ -36,7 +37,7 @@ function Pagina() {
                   <h3 className='h'>{from.Content[key].name}</h3>
                   <p className='con'>{from.Content[key].text}</p>
                   </div>
-                  <img className='imagePage' alt='sc' src={`${from.Content[key].picture}`}></img>
+                  <img className='imagePage' alt='sc' src={`${location.pathname === "/MyWork/Pagina" ? "."+from.Content[key].picture : from.Content[key].picture}  `}></img>
                </div>
                </FadeInSection>
 

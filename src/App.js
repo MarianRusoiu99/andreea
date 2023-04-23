@@ -29,6 +29,7 @@ function App() {
           <Route path="MyWork" element={<MyWork/>}/>
           <Route path="Altele" element={<Altele/>}/>
           <Route path="Pagina" element={<Pagina />}/>
+          <Route path="MyWork/Pagina" element={<Pagina />}/>
           <Route path='*' element={<Error/>}/>
       </Routes>
       <Footer/>

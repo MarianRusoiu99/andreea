@@ -3,7 +3,7 @@ import {Link , useLocation} from "react-router-dom"
 import {HiArrowUpRight} from "react-icons/hi2"
 import { IconContext } from "react-icons";
 function Header() {
-  const pathList=["/Pagina","/Altele", "/DesignDeProdus","/MyWork/Altele"];
+  const pathList=["/Pagina","/Altele", "/DesignDeProdus","/MyWork/Altele","/MyWork/Pagina"];
   const location = useLocation();
   // console.log(location);
   return (
