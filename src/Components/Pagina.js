@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom'
 import Slider from './Slider'
 import Geometrybg from './Geometrybg'
 import FadeInSection from './FadeInSection'
+import { motion } from 'framer-motion'
 function Pagina() {
   const location = useLocation()
   console.log(location.pathname)
@@ -11,15 +12,55 @@ function Pagina() {
     window.scrollTo(0,0)
   },[])
   console.log(from.Slider)
+  const titleVariants = {
+    hidden:{
+      y:50,
+      opacity:0
+    },
+    visible:{
+      y:0,
+      opacity:1,
+      transition:{
+        delay:0.5,
+        duration:1,
+        type:"spring",
+
+      }
+    }
+  }
+  const bgVariants={
+    initial:{
+      opacity: 0
+    },
+    animate:{
+      opacity:1,
+      transition:{
+        duration:1.5
+      }
+    }
+  }
+  
+
+
   return (
    
     <div className="Container bgColorLight colorDark">
-      
-      <div className="Title">
+      <motion.div className='full'
+        variants={bgVariants}
+        animate="animate"
+        initial="initial"
+      >
       <Geometrybg color="#1E1E1E"/>
+      </motion.div>
+      <motion.div className="Title"
+        variants={titleVariants}
+        initial="hidden"
+        animate="visible"
+      >
+      
         <h1 className='numeProiect'>{from.title}</h1>
         <h2 className='subtitle'>{from.subtitle}</h2>
-      </div>
+      </motion.div>
       <FadeInSection>  
       <div className="bigImageContainer">
            <img src={`${location.pathname === "/MyWork/Pagina" ? "."+from.bigPicture : from.bigPicture}`} alt='gi'/>

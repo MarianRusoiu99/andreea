@@ -5,7 +5,10 @@
     margin-right: 30px;
   }
  
- 
+ .index{
+  z-index:110 !important;
+ }
+
   #Header{  
     width: 100%;
     position:fixed;     
@@ -17,7 +20,7 @@
 
     align-items: center;
     border-bottom: 1px solid  ;
-    z-index: 100;
+    z-index: 110;
   
     /* position: relative; */
   }
@@ -61,4 +64,5 @@
 }
 .headerT{
   font-size: 20px;
+  font-weight:600;
 }
