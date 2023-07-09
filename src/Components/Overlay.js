@@ -36,11 +36,7 @@ function Overlay() {
   
   return (
     <div className="ovCont">
-        <motion.h1 className='numeProiect'
-          variants={titleVariants}
-          initial="hidden"
-          animate="visible"
-        >GRAPHIC DESIGNER</motion.h1>
+        
         <motion.div className='full'
           variants={bgVariants}
           initial="initial"
@@ -48,6 +44,16 @@ function Overlay() {
         >
         <Geometrybg/>
         </motion.div>
+        <motion.h1 className='numeProiect Title'
+          variants={titleVariants}
+          initial="hidden"
+          animate="visible"
+        >PRODUCT DESIGNER</motion.h1>
+         {/* <motion.h1 className='numeProiect Title'
+          variants={titleVariants}
+          initial="hidden"
+          animate="visible"
+        >GRAPHIC DESIGNER</motion.h1> */}
     </div>
   )
 }

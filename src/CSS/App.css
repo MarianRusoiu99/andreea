@@ -9,6 +9,9 @@ a{
   
 
 }
+canvas{
+  touch-action: auto!important;
+}
 .colorLight{
   color: #f2f2f2 !important;
 }

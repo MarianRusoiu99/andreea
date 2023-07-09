@@ -1,0 +1,16 @@
+{
+    "title": "Solara",
+    "subtitle": "Product design",
+    "bigPicture": "./Gallery/Solara.webp",
+    "Content": {
+        "1": {
+            "name": "THE CONTEXT",
+            "text": "Introducing the epitome of sophistication and style, the coffee table is a stunning masterpiece of modern design. Meticulously crafted with meticulous attention to detail, this luxurious piece seamlessly blends opulence and functionality, making it the focal point of any elegant living space. The coffee table boasts a sleek and refined aesthetic, featuring a rich, black wood texture that exudes timeless elegance. The smooth and lustrous surface adds a touch of luxury, while the attention-grabbing glass detail, skillfully integrated into the design, adds a captivating element of contemporary flair. The glass, expertly incorporated as a seamless part of the table's structure, provides a glimpse into the carefully crafted interior, revealing the innovative deposition space.",
+            "picture": "./Gallery/Solara2.webp"
+    
+        
+        }
+    },
+    "Slider":["./Gallery/Solara2.webp,./Gallery/Solara.webp"]
+    
+}

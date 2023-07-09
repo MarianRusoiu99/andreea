@@ -44,7 +44,7 @@
 }
 
 .react-slideshow-container .default-nav:hover,
-.react-slideshow-container .default-nav:focus {
+.react-slideshow-container {
     background: rgba(255, 255, 255, 0.2);
     color: #666;
     outline: 0
@@ -106,7 +106,7 @@
 }
 
 .react-slideshow-container+ul.indicators .each-slideshow-indicator:hover,
-.react-slideshow-container+ul.indicators .each-slideshow-indicator.active {
+.react-slideshow-container+ul.indicators  {
     opacity: .75;
     outline: 0
 }

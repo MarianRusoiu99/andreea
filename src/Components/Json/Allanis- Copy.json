@@ -1,0 +1,15 @@
+{
+    "title": "Allanis",
+    "subtitle": "Jewel design",
+    "bigPicture": "./Gallery/Allanis_Andreea_5.webp",
+    "Content": {
+        "1": {
+            "name": "THE CONTEXT",
+            "text": "Introducing the captivating ring, a stunning piece of jewelry that draws inspiration from the mesmerizing sea waves and the profound beauty of cultured pearls. This exquisite design seamlessly merges the graceful movement of ocean tides with the timeless allure of pearls, resulting in a ring that exudes elegance, sophistication, and a touch of mystery.Symbolizing purity and wisdom, the pearl is carefully chosen for its flawless beauty and radiant glow. As if emerging from the depths of the sea, the pearl rests gracefully atop the ring, accentuating its elegance and drawing the eye to its exquisite iridescence.",
+            "picture": "./Gallery/prezentareinelalannis.webp"
+        
+    }
+    },
+    "Slider":["./Gallery/Allanis_Andreea_5.webp","./Gallery/prezentareinelalannis.webp"]
+    
+}

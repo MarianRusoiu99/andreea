@@ -1,29 +1,25 @@
 {
-    "title": "titlu",
-    "subtitle": "Altele",
-    "bigPicture": "./Gallery/b.webp",
+    "title": "Platinum wedding rings",
+    "subtitle": "Jewelry design",
+    "bigPicture": "./Gallery/Wedding_rings.webp",
     "Content": {
         "1": {
             "name": "THE CONTEXT",
-            "text": "Revamp of existing Nintendo Switch’s - friend feature. The idea is to improve the NS user experience and make the system more friendly regarding the friend system.",
-            "picture": "./Gallery/b.webp"
+            "text": "Introducing a stunning collection of platinum wedding rings that embody elegance, sophistication, and timeless beauty. At the heart of this collection is a mesmerizing design crafted with meticulous attention to detail. Each ring is a masterpiece in itself, reflecting the unique bond between two souls embarking on a lifelong journey together.",
+            "picture": "./Gallery/Wedding_rings2.webp"
         },
         "2": {
-            "name": "THE CONTEXT",
-            "text": "Revamp of existing Nintendo Switch’s - friend feature. The idea is to improve the NS user experience and make the system more friendly regarding the friend system.",
-            "picture": "./Gallery/b.webp"
+            "name": "Description",
+            "text": "For the ladies' ring, a captivating amber stone takes center stage, exuding warmth and radiance. Its rich, honey-like hues capture the essence of love, symbolizing a deep connection and passion shared between partners. Delicate and fine lines gracefully wrap around the amber, forming a harmonious blend of contemporary artistry and classic elegance. The intricate craftsmanship showcases the artisans' expertise, creating a ring that is as breathtaking as the love it represents. The men's ring, on the other hand, is a masterpiece of understated luxury. Subtle lines adorn the platinum band, symbolizing strength, resilience, and the unwavering commitment of a devoted partner. Enhancing its understated allure, a scattering of brilliant diamonds adds a touch of refined opulence. These diamonds, like stars in the night sky, represent the eternal spark ignited by love, illuminating the path of togetherness.",
+            "picture": "./Gallery/Wedding_rings3.webp"
         },
         "3": {
-            "name": "THE CONTEXT",
-            "text": "Revamp of existing Nintendo Switch’s - friend feature. The idea is to improve the NS user experience and make the system more friendly regarding the friend system.",
-            "picture": "./Gallery/b.webp"
-        },
-        "4": {
-            "name": "THE CONTEXT",
-            "text": "Revamp of existing Nintendo Switch’s - friend feature. The idea is to improve the NS user experience and make the system more friendly regarding the friend system.",
-            "picture": "./Gallery/b.webp"
+            "name": "Symbol",
+            "text": "Each piece in this collection is meticulously crafted to ensure unmatched quality and durability. The platinum setting not only enhances the beauty of the rings but also signifies the everlasting nature of the bond they celebrate. Every detail, from the precise placement of gemstones to the polished finish, is thoughtfully executed to create a ring that is truly exceptional. Whether worn individually or as a harmonious pair, these platinum wedding rings are a testament to love's profound beauty and enduring strength. They serve as cherished symbols of commitment, unity, and the promise of a lifetime shared with the one you hold dear. Embrace the allure of exquisite design, exceptional craftsmanship, and profound symbolism with our platinum wedding ring collection. Let your love story be forever adorned with the elegance and magnificence of these extraordinary creations.",
+            "picture": "./Gallery/Wedding_rings4.webp"
         }
+         
     },
-    "Slider":["./Gallery/b.webp","./Gallery/b.webp","./Gallery/b.webp","./Gallery/b.webp"]
+    "Slider":["./Gallery/Wedding_rings.webp","./Gallery/Wedding_rings5.webp","./Gallery/Wedding_rings3.webp","./Gallery/Wedding_rings4.webp"]
     
 }

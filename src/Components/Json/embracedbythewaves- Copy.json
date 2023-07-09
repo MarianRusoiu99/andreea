@@ -1,0 +1,19 @@
+{
+    "title": "Embraced by the waves",
+    "subtitle": "Jewel design",
+    "bigPicture": "./Gallery/EmbracedbythewavesSilviaAndreeaCojocaru-01.webp",
+    "Content": {
+        "1": {
+            "name": "Description",
+            "text": "Introducing an opulent and elegant ring that captures the essence of a hidden pearl within the waves. This exquisite design stands as a true testament to the artistry and craftsmanship of its creator. The ring's captivating aesthetic evokes a sense of luxury and sophistication, symbolizing the beauty and allure of a precious pearl nestled amidst the gentle embrace of the waves.Crafted with meticulous attention to detail, the ring showcases a perfect blend of luxurious materials and mesmerizing design elements. The flowing waves, expertly sculpted and embellished with exquisite precision, cradle a hidden pearl, encapsulating its enchanting beauty and mystery. The opulence of the ring is further enhanced by the use of high-quality materials, carefully selected to accentuate the elegance of the design. From its radiant gemstones to the intricate metalwork, every element of this distinguished ring reflects the dedication and passion of its creator. The harmonious combination of form and function results in a truly breathtaking piece that effortlessly adorns the wearer's hand with grace and sophistication.",
+            "picture": "./Gallery/plansaembraced.webp"
+        },
+        "2": {
+            "name": "Award",
+            "text": "Inspired by the harmony between nature and elegance, this exceptional ring design recently achieved the remarkable distinction of securing the 2nd place at the prestigious design competition hosted by Academia Riaci in Florence. The recognition of this achievement further exemplifies the undeniable talent and creativity exhibited in the creation of this extraordinary piece of jewelry.The recognition received at the Academia Riaci design competition serves as a testament to the creativity and skill poured into this remarkable ring. With its exceptional design concept and meticulous execution, this award-winning piece has left an indelible mark on the world of jewelry design.",
+            "picture": "./Gallery/2-3_SilviaAndreeaCojocaru.webp"}
+    
+    },
+    "Slider":["./Gallery/2-3_SilviaAndreeaCojocaru.webp","./Gallery/EmbracedbythewavesSilviaAndreeaCojocaru-01.webp","./Gallery/plansaembraced.webp"]
+    
+}

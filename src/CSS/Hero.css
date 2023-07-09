@@ -16,25 +16,26 @@
   height: 100%;
 }
 
+
 #wcont {
   padding: 30px;
-  max-width: 1200px;
-  gap: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  max-width: 1000px;
+  width: 100%;
+   -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
 }
+
 
 
 
 .workitem {
     outline:1px solid;
-  width: 49%;
+  /* width: 49%; */
   transition: 0.4s;
 }
 .workitem:hover{
+   outline:1px solid #f2f2f2;
   background-color: #f2f2f2;
   color: #0d0d0d;
   /* border-color: #1E1E1E; */
@@ -123,7 +124,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+ flex-direction: column;
   position: relative;
 }
 

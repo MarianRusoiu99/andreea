@@ -1,0 +1,15 @@
+{
+    "title": "HARMONY STAND",
+    "subtitle": "Product Design",
+    "bigPicture": "./Gallery/Plansasuportdetelefon.webp",
+    "Content": {
+        "1": {
+            "name": "THE CONTEXT",
+            "text": "Introducing a revolutionary phone stand that seamlessly combines innovative generative design with the immersive audio experience of a built-in Bluetooth speaker. This remarkable creation reimagines the traditional phone stand, elevating it to new heights of functionality, aesthetics, and technological integration.The 'Harmony Stand' embodies the perfect harmony between form and function. Its generative design approach ensures a visually captivating and dynamically sculpted structure that adapts to the unique needs of each user. The stand's fluid and organic lines are inspired by nature, creating an elegant and harmonious aesthetic that seamlessly blends into any modern environment.",
+            "picture": "./Gallery/plansa2.webp"
+      
+        }
+    },
+    "Slider":["./Gallery/Plansasuportdetelefon.webp","./Gallery/plansa2.webp"]
+    
+}

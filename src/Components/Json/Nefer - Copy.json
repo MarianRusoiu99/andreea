@@ -1,0 +1,19 @@
+{
+    "title": "Nefer",
+    "subtitle": "Product design",
+    "bigPicture": "./Gallery/20.webp",
+    "Content": {
+        "1": {
+            "name": "Description",
+            "text": "Introducing an extraordinary perfume collection that pays homage to the allure of ancient mythologies. Each bottle in this captivating series represents a legendary figure: Medusa, Nefertiti, an African woman adorned with neck rings, and Venus. Inspired by their timeless beauty, these bottles feature a mesmerizing gold generative design that gracefully wraps around the vessel, reminiscent of ornate vestments. The matte black bottle serves as a canvas, highlighting the intricate details and evoking a sense of mystery and sophistication. With this collection, indulge in the essence of mythical tales and timeless elegance, embracing the magic of the past in a contemporary and luxurious form.",
+            "picture": "./Gallery/22.webp"
+        },
+        "2": {
+            "name": "THE CONTEXT",
+            "text": "These perfumes are created for a niche audience, individuals who appreciate the intersection of art, history, and luxury. They are designed for those with a penchant for exclusivity and a deep appreciation for the stories and symbolism associated with ancient mythologies. The collection caters to individuals who seek fragrances that not only evoke a sense of beauty and elegance but also transport them into the realms of imagination and myth. The target audience for this collection embraces individuality and desires to own a piece of olfactory art that reflects their refined taste. They appreciate the craftsmanship and attention to detail that goes into creating each unique perfume bottle. These individuals are drawn to the distinctiveness of niche fragrances and seek out scents that set them apart from mainstream offerings. They appreciate the opportunity to connect with ancient narratives and cultural heritage through the medium of fragrance.",
+            "picture": "./Gallery/5.webp"}
+       
+    },
+    "Slider":["./Gallery/7.webp","./Gallery/8.webp","./Gallery/6.webp","./Gallery/3.webp","./Gallery/gnf.webp","./Gallery/fiu8.webp","./Gallery/1.webp"]
+    
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Japanese Harmony",
+    "subtitle": "Product design",
+    "bigPicture": "./Gallery/Japaneseharmony.webp",
+    "Content": {
+        "1": {
+            "name": "Description",
+            "text": "Introducing an exquisite lamp inspired by the elegance of Japanese architecture. With clean lines and a minimalistic form, this lamp captures the serene and balanced design principles of Japan. The soft, diffused lighting and carefully selected materials evoke a sense of tranquility, creating a warm and inviting ambiance. Embrace the essence of Japanese design with the lamp, as it brings a touch of timeless elegance and cultural sophistication to any space.",
+            "picture": "./Gallery/japaneseharmony(2).webp"}
+  
+    },
+    "Slider":["./Gallery/japaneseharmony3.webp","./Gallery/japaneseharmony(2).webp","./Gallery/Japaneseharmony.webp"]
+    
+}

@@ -1,29 +1,20 @@
 {
-    "title": "titlu",
-    "subtitle": "Altele",
-    "bigPicture": "./Gallery/b.webp",
+    "title": "Serenity in Motion: A Kinetic Sculpture Inspired by the Sea",
+    "subtitle": "Product design",
+    "bigPicture": "./Gallery/Serendip1.webp",
     "Content": {
         "1": {
-            "name": "THE CONTEXT",
-            "text": "Revamp of existing Nintendo Switch’s - friend feature. The idea is to improve the NS user experience and make the system more friendly regarding the friend system.",
-            "picture": "./Gallery/b.webp"
+            "name": "Description",
+            "text": "The kinetic sculpture is an exquisite piece of artistry that beautifully captures the essence of the sea. Inspired by the vastness and tranquility of the ocean, this meticulously designed sculpture seamlessly blends elements of art, engineering, and nature to create a captivating and immersive experience.",
+            "picture": "./Gallery/Serendip2.webp"
         },
         "2": {
             "name": "THE CONTEXT",
-            "text": "Revamp of existing Nintendo Switch’s - friend feature. The idea is to improve the NS user experience and make the system more friendly regarding the friend system.",
-            "picture": "./Gallery/b.webp"
-        },
-        "3": {
-            "name": "THE CONTEXT",
-            "text": "Revamp of existing Nintendo Switch’s - friend feature. The idea is to improve the NS user experience and make the system more friendly regarding the friend system.",
-            "picture": "./Gallery/b.webp"
-        },
-        "4": {
-            "name": "THE CONTEXT",
-            "text": "Revamp of existing Nintendo Switch’s - friend feature. The idea is to improve the NS user experience and make the system more friendly regarding the friend system.",
-            "picture": "./Gallery/b.webp"
+            "text": "Through its dynamic and kinetic design, the sculpture invites viewers to embark on a sensory journey. As the sculpture gently moves and sways, it evokes a feeling of tranquility, inviting observers to pause, reflect, and connect with the captivating beauty of the natural world.",
+            "picture": "./Gallery/Serendip3.webp"
+      
         }
     },
-    "Slider":["./Gallery/b.webp","./Gallery/b.webp","./Gallery/b.webp","./Gallery/b.webp"]
+    "Slider":["./Gallery/Serendip1.webp","./Gallery/Serendip2.webp","./Gallery/Serendip3.webp"]
     
 }

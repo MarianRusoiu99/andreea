@@ -1,0 +1,14 @@
+{
+    "title": "Eleganza Deco",
+    "subtitle": "Product design",
+    "bigPicture": "./Gallery/eleganzadeco.webp",
+    "Content": {
+        "1": {
+            "name": "Description",
+            "text": "Introducing an exquisite opera binocular, a masterpiece of Art Deco design. Created with meticulous attention to detail, this exceptional piece showcases a perfect fusion of elegance and functionality. The binocular features a stunning color palette of matte black and gold, evoking a sense of timeless sophistication. With its sleek lines and opulent finish, this Art Deco-inspired opera binocular is a true testament to your unique design vision.",
+            "picture": "./Gallery/eleganzadeco1.webp"
+        } 
+    },
+    "Slider":["./Gallery/eleganzadeco2.webp","./Gallery/eleganzadeco3.webp","./Gallery/eleganzadeco.webp","./Gallery/eleganzadeco1.webp"]
+    
+}

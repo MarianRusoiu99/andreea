@@ -3,6 +3,7 @@ import React from 'react'
 import { Link, useLocation } from "react-router-dom"
 
 import FadeInSection from './FadeInSection';
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
 
 function MyWork() {
@@ -30,7 +31,12 @@ function MyWork() {
             <FadeInSection><h2 className='head'>MY WORK</h2></FadeInSection></div>
 
          <div id="wcont">
+         <ResponsiveMasonry
+                columnsCountBreakPoints={{350: 1, 750: 2}}
 
+            >
+            <Masonry  gutter="30px">
+            
             {
 
                Object.keys(all).map(key => {
@@ -38,15 +44,15 @@ function MyWork() {
                   return (
                      <Link to="Pagina" state={{ from: all[key] }} className="workitem">
                         <img className="imag" src={`${all[key].bigPicture}`} alt="text" />
-                        <h3 className='titl text t'>DESIGN INTERIOR</h3>
-                        <h4 className='subtitl t'>SFSDFSDFSD</h4>
+                        <h3 className='titl text t'>{all[key].title}</h3>
+                        <h4 className='subtitl t'>{all[key].subtitle}</h4>
                      </Link>)
                   // console.log(all[key].bigPicture)
                })
             }
 
-
-
+</Masonry>
+</ResponsiveMasonry>
          </div>
       </div>
    )

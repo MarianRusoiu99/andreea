@@ -1,0 +1,14 @@
+{
+    "title": "Neurallink helmet",
+    "subtitle": "Product Design",
+    "bigPicture": "./Gallery/prezentareneurallink.webp",
+    "Content": {
+        "1": {
+            "name": "Description",
+            "text": "Introducing Neurallink a groundbreaking sensor helmet that merges fashion with the power of Neuralink's neural interface technology. This sleek and lightweight helmet enables seamless brain-computer interaction, enhancing cognitive abilities and unlocking new frontiers of human potential. With its intuitive user interface and advanced sensors, revolutionizes the way we interact with technology, opening up a new era of possibilities for communication, information access, and medical research.",
+            "picture": "./Gallery/plansa3.webp"
+        }
+    },
+    "Slider":["./Gallery/prezentareneurallink.webp","./Gallery/plansa3.webp"]
+    
+}

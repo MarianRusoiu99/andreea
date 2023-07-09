@@ -1,0 +1,20 @@
+{
+    "title": "Metamorphosis: The Perfume Packaging Transformed into a Luxurious Clutch Bag",
+    "subtitle": "Product Design",
+    "bigPicture": "./Gallery/accesoriugeanta.webp",
+    "Content": {
+        "1": {
+            "name": "THE DESCRIPTION",
+            "text": "Introducing a revolution in perfume packaging, is a visionary concept that combines the elegance of luxury fragrance with the functionality of a sophisticated clutch bag. This innovative design offers a seamless transition from a stunning perfume container to a fashion-forward accessory, captivating the senses and redefining the boundaries of product design. The exterior of the perfume packaging exudes opulence and refinement, featuring exquisite black crocodile leather that evokes a sense of timeless glamour. The meticulous craftsmanship and attention to detail are evident in every stitch, lending an air of exclusivity and prestige to the overall aesthetic. The sleek and tactile surface invites touch, promising a sensory experience that complements the olfactory pleasure of the fragrance within.",
+            "picture": "./Gallery/accesoriugeanta.210.webp"
+        },
+        "2": {
+            "name": "DETAILS",
+            "text": "As the perfume is removed from the packaging, a remarkable transformation takes place. The design ingeniously integrates a hidden mechanism that seamlessly converts the container into a luxurious clutch bag. The black crocodile leather, now freed from its confinement, elegantly unfolds to reveal a spacious compartment, perfect for carrying essentials with style and sophistication. Enhancing the allure of the clutch bag, a gold hand keeper adds a touch of glamour and serves as a statement accessory. The lustrous gold finish catches the light, capturing attention and reflecting the wearer's refined taste. The hand keeper, ergonomically designed for comfort, ensures a secure grip and adds a touch of functional elegance to the transformed clutch.The perfume packaging-turned-clutch bag transcends its initial purpose, becoming an essential fashion statement. Its versatile design seamlessly blends the worlds of luxury fragrance and high-end accessories, offering a multi-dimensional experience to the discerning consumer. In addition to its captivating exterior, the clutch bag provides functionality and convenience. Thoughtfully designed compartments and pockets allow for organized storage of personal items, while the high-quality materials and expert craftsmanship ensure durability and longevity.",
+            "picture": "./Gallery/accesoriugeanta.208.webp"
+        
+        }
+    },
+    "Slider":["./Gallery/accesoriugeanta.webp","./Gallery/accesoriugeanta.210.webp","./Gallery/accesoriugeanta.208.webp","./Gallery/accesoriugeanta.207.webp"]
+    
+}
