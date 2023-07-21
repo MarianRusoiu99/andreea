@@ -32,7 +32,7 @@ function Header() {
     animate="visible"
    
    >
-   <Link  to="/"> <h2 className='headerName  index'>Andreea Cojocaru</h2></Link>
+   <Link  to="/"> <h2 className='headerName  index'>Silvia Cojocaru</h2></Link>
     <IconContext.Provider value={{ size: "2em"  }}>
     <Link className={`${pathList.includes(location.pathname) ? "colorDark bgColorLight" : "colorLight bgColorDark"}`  } style={{"margin-right" :"30px"}} to="/">
     <HiArrowUpRight/>

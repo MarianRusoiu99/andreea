@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className='footer colorDark bgColorLight'>
       <IconContext.Provider value={{ size: "2em" }}>
-      <p>  @2023 Andreea Cojocaru</p>
+      <p>  @2023 Silvia Cojocaru</p>
       {/* <a  href='https://juziey.com/'><p style={{fontSize: "12px"}}>Inspiration for the website JUZIEY</p></a> */}
       <div>
       <AiFillLinkedin/>
